@@ -1,11 +1,17 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Title, ExpandIcon } from "./styles";
 
-const ServerName: React.FC = () => {
+interface Props {
+  title: string;
+}
+
+const ServerName: React.FC<Props> = ({ title }: Props) => {
   return (
     <Container>
-      <h1>ServerName</h1>
+      <Title>{title}</Title>
+
+      <ExpandIcon />
     </Container>
   );
 };
