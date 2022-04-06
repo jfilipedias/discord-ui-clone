@@ -66,6 +66,6 @@ export const MessageView = styled.div`
   }
 
   ::-webkit-scrollbar-track {
-    background-color: var(--secondary);
+    background-color: var(--primary);
   }
 `;
