@@ -27,6 +27,7 @@ export default createGlobalStyle`
  
     --white: #fff;
     --gray: #8a8c90;
+    --black: #000;
     --chat-input: rgb(64,68,75);
     --symbol: #74777a;
  
@@ -37,6 +38,5 @@ export default createGlobalStyle`
  
     --link: #5d80d6;
  
-    --rocketseat: #6633cc;
   }
 `;

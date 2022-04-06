@@ -13,8 +13,8 @@ export const Button = styled.button<Props>`
   border-radius: 50%;
 
   margin-bottom: 8px;
-  background-color: ${props =>
-    props.isHome ? "var(--rocketseat)" : "var(--primary)"};
+  background-color: ${(props) =>
+    props.isHome ? "var(--black)" : "var(--primary)"};
 
   cursor: pointer;
   position: relative;
@@ -36,7 +36,7 @@ export const Button = styled.button<Props>`
     border-radius: 50%;
 
     content: "";
-    display: ${props => (props.hasNotifications ? "inline" : "none")};
+    display: ${(props) => (props.hasNotifications ? "inline" : "none")};
   }
 
   &::after {
@@ -58,8 +58,8 @@ export const Button = styled.button<Props>`
     font-weight: bold;
     color: var(--white);
 
-    content: "${props => props.mentions && props.mentions}";
-    display: ${props =>
+    content: "${(props) => props.mentions && props.mentions}";
+    display: ${(props) =>
     props.mentions && props.mentions > 0 ? "inline" : "none"};
   }
 
@@ -68,7 +68,7 @@ export const Button = styled.button<Props>`
   &.active,
   &:hover {
     border-radius: 16px;
-    background-color: ${props =>
-    props.isHome ? "var(--rocketseat)" : "var(--discord)"};
+    background-color: ${(props) =>
+    props.isHome ? "var(--black)" : "var(--discord)"};
   }
 `;
