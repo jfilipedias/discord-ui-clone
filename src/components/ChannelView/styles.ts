@@ -23,6 +23,10 @@ export const Input = styled.input`
 
   position: relative;
 
+  &:focus {
+    outline: 1px solid var(--gray);
+  }
+
   &::placeholder {
     color: var(--gray);
   }
