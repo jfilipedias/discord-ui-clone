@@ -2,6 +2,7 @@ import React from "react";
 
 import ChannelInfo from "../ChannelInfo";
 import ChannelList from "../ChannelList";
+import ChannelView from "../ChannelView";
 import ServerList from "../ServerList";
 import ServerName from "../ServerName";
 import UserInfo from "../UserInfo";
@@ -13,9 +14,10 @@ const Layout: React.FC = () => {
     <Container>
       <ServerList />
       <ServerName title="Filipe's Server" />
-      <ChannelInfo title="General" description="Channel open to chat" />
       <ChannelList />
       <UserInfo userName="Filipe" userId={2368} />
+      <ChannelInfo title="General" description="Channel open to chat" />
+      <ChannelView />
       <UserList />
     </Container>
   );

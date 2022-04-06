@@ -8,8 +8,8 @@ export const Container = styled.div`
 
   grid-template-areas:
     "ServersList ServerName ChannelInfo ChannelInfo"
-    "ServersList ChannelsList Chat UsersList"
-    "ServersList UserInfo Chat UsersList";
+    "ServersList ChannelsList ChannelView UsersList"
+    "ServersList UserInfo ChannelView UsersList";
 
   height: 100vh;
 `;
