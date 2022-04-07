@@ -8,7 +8,7 @@
 
 This project is a Discord UI clone developed with [ReactJS](https://reactjs.org/), [Vite](https://vitejs.dev/) and [Typescript](https://www.typescriptlang.org/) to learn more about front end development. 
 
-The main objectives of the project were to learn more about react projects structure, components segregation and UI styling. Was used grid layout to organize the UI components, and the [styled-components](https://styled-components.com/) and [styled-icons](https://styled-icons.dev/) library to create the components styles. 
+The main objectives of the project were to learn more about react projects structure, components segregation and UI styling. Grid layout was used to organize the UI components, and the [styled-components](https://styled-components.com/) and [styled-icons](https://styled-icons.dev/) library to create the components styles. 
 
 <h1 align="center">
     <img alt="Project final result image" title="Discord UI Clone" src="./src/assets/cover.png" />
